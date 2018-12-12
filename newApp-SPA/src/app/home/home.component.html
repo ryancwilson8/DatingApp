@@ -1,7 +1,7 @@
 <div *ngIf="!loggedIn()" class="container mt-5">
   <div *ngIf="!registerMode" style="text-align: center">
-    <h1>Find your match</h1>
-    <p class="lead">Come on in to view your matches... All you need to do is sign up!</p>
+    <h1>Welcome, </h1>
+    <p class="lead">Sign up!</p>
     <div class="text-center">
       <button class="btn btn-primary btn-lg mr-2" (click)="registerToggle()">Register</button>
       <button class="btn btn-info btn-lg">Learn more</button>
@@ -18,6 +18,6 @@
 </div>
 <div *ngIf="loggedIn()" class="container mt-5">
     <div style="text-align: center">
-      <h3>Welcome, 'Your Name Here'!</h3>
+      <h3>Welcome</h3>
     </div>
 </div>
